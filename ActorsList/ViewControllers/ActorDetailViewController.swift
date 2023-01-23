@@ -61,7 +61,6 @@ class ActorDetailViewController: UIViewController {
             }.resume()
         }
     
-    
     private func configureItems() {
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Change BG", style: .done, target: self, action: #selector(changeBG))
     }
