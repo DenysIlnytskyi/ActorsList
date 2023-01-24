@@ -14,8 +14,9 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loginTextField.text = UserSettings.userModel.name
-        passwordTextField.text = UserSettings.userModel.password
+        
+        loginTextField.text = UserSettings.userModel?.name
+        passwordTextField.text = UserSettings.userModel?.password
 }
 
     @IBAction func loginButtonPressed() {

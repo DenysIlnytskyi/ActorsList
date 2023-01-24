@@ -56,7 +56,6 @@
 			children = (
 				86E30818297DCA4400D7EEC3 /* ActorCell.swift */,
 				86971347297AF2990008C8D7 /* LoginViewController.swift */,
-				86F01C4F297EADC6003765B9 /* UserSettings.swift */,
 				8697135B297AF94F0008C8D7 /* ActorsListViewController.swift */,
 				8697135D297B05820008C8D7 /* ActorDetailViewController.swift */,
 			);
@@ -102,6 +101,7 @@
 		860173D6297C47F800D7D49E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				86F01C4F297EADC6003765B9 /* UserSettings.swift */,
 				86971359297AF5420008C8D7 /* NetworkManager.swift */,
 			);
 			path = Services;
